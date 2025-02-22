@@ -123,23 +123,15 @@ enum QuickAlertDialogTypes {
 
 ## Screenshots
 
-### Success Alert
-![Success Alert](screenshots/success_alert.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/aljaff94/flutter_quickalert/master/screenshots/success_alert.png?raw=true" width="49%">
+<img src="https://raw.githubusercontent.com/aljaff94/flutter_quickalert/master/screenshots/error_alert.png?raw=true" width="49%">
+<img src="https://raw.githubusercontent.com/aljaff94/flutter_quickalert/master/screenshots/warning_alert.png?raw=true" width="49%">
+<img src="https://raw.githubusercontent.com/aljaff94/flutter_quickalert/master/screenshots/info_alert.png?raw=true" width="49%">
+<img src="https://raw.githubusercontent.com/aljaff94/flutter_quickalert/master/screenshots/loading_info_alert.png?raw=true" width="49%">
+<img src="https://raw.githubusercontent.com/aljaff94/flutter_quickalert/master/screenshots/confirm_warning_alert.png?raw=true" width="49%">
+</p>
 
-### Error Alert
-![Error Alert](screenshots/error_alert.png)
-
-### Warning Alert
-![Warning Alert](screenshots/warning_alert.png)
-
-### Info Alert
-![Info Alert](screenshots/info_alert.png)
-
-### Loading Info Alert
-![Loading Info Alert](screenshots/loading_info_alert.png)
-
-### Confirm Warning Alert
-![Confirm Warning Alert](screenshots/confirm_warning_alert.png)
 
 ## Contributions
 
