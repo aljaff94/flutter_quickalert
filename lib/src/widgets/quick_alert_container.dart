@@ -113,7 +113,7 @@ class QuickAlertContainer extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Container(
-            height: 100,
+            height: theme.headerHeight,
             decoration: BoxDecoration(
               color: color,
               borderRadius: BorderRadius.vertical(

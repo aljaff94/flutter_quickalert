@@ -16,6 +16,7 @@ class QuickAlertTheme extends ThemeExtension<QuickAlertTheme> {
 
   /// Optional background and onBackground colors.
   final Color? background, onBackground;
+  final double headerHeight;
 
   /// Border radius for the alert.
   final double radius;
@@ -33,6 +34,7 @@ class QuickAlertTheme extends ThemeExtension<QuickAlertTheme> {
     this.info = const Color(0xFF258EA6),
     this.onInfo = Colors.white,
     this.radius = 8,
+    this.headerHeight = 100,
   });
 
   /// Creates a copy of this theme but with the given fields replaced with the new values.
@@ -49,6 +51,7 @@ class QuickAlertTheme extends ThemeExtension<QuickAlertTheme> {
     Color? info,
     Color? onInfo,
     double? radius,
+    double? headerHeight,
   }) {
     return QuickAlertTheme(
       background: background ?? this.background,
@@ -62,6 +65,7 @@ class QuickAlertTheme extends ThemeExtension<QuickAlertTheme> {
       info: info ?? this.info,
       onInfo: onInfo ?? this.onInfo,
       radius: radius ?? this.radius,
+      headerHeight: headerHeight ?? this.headerHeight,
     );
   }
 
@@ -80,6 +84,7 @@ class QuickAlertTheme extends ThemeExtension<QuickAlertTheme> {
       info: Color.lerp(info, other.info, t)!,
       onInfo: Color.lerp(onInfo, other.onInfo, t)!,
       radius: lerpDouble(radius, other.radius, t)!,
+      headerHeight: lerpDouble(headerHeight, other.headerHeight, t)!,
     );
   }
 }

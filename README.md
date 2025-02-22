@@ -62,16 +62,23 @@ Customize the alert appearance by applying `QuickAlertTheme` to your app's theme
 
 ```dart
 ThemeData(
-  extensions: <ThemeExtension<dynamic>>[
-    QuickAlertTheme(
-      success: Colors.green,
-      error: Colors.red,
-      warning: Colors.orange,
-      info: Colors.blue,
-      background: Colors.white,
-      radius: 12,
-    ),
-  ],
+  // your custom theme data
+    extensions: <ThemeExtension<dynamic>>{
+      QuickAlertTheme(
+        // background,
+        // onBackground,
+        success: const Color(0xFF569F49),
+        onSuccess: Colors.white,
+        error: const Color(0xFFAA4444),
+        onError: Colors.white,
+        warning: const Color(0xFFE69A00),
+        onWarning: Colors.white,
+        info: const Color(0xFF258EA6),
+        onInfo: Colors.white,
+        radius: 8,
+        headerHeight: 100,
+      ),
+    },
 );
 ```
 

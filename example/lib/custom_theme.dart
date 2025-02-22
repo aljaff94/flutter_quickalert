@@ -5,10 +5,7 @@ class CustomTheme {
   CustomTheme._();
 
   static ThemeData get theme => ThemeData(
-    useMaterial3: true,
     // your custom theme data
-
-    //  quick alert theme
     extensions: <ThemeExtension<dynamic>>{
       QuickAlertTheme(
         // background,
@@ -22,6 +19,7 @@ class CustomTheme {
         info: const Color(0xFF258EA6),
         onInfo: Colors.white,
         radius: 8,
+        headerHeight: 100,
       ),
     },
   );

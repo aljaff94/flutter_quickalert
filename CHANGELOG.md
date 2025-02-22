@@ -1,3 +1,7 @@
+## 1.0.0
+
+* add new option to set header height in theme.
+
 ## 0.3.3
 
 * update readme.
