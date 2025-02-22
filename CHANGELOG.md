@@ -1,6 +1,12 @@
+## 0.3.2
+
+* update readme.
+
+
 ## 0.3.1
 
 * update dialog type references from QuickAlertDialogType to QuickAlertDialogTypes.
+
 
 ## 0.3.0
 

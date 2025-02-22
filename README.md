@@ -121,6 +121,26 @@ enum QuickAlertDialogTypes {
 }
 ```
 
+## Screenshots
+
+### Success Alert
+![Success Alert](screenshots/success_alert.png)
+
+### Error Alert
+![Error Alert](screenshots/error_alert.png)
+
+### Warning Alert
+![Warning Alert](screenshots/warning_alert.png)
+
+### Info Alert
+![Info Alert](screenshots/info_alert.png)
+
+### Loading Info Alert
+![Loading Info Alert](screenshots/loading_info_alert.png)
+
+### Confirm Warning Alert
+![Confirm Warning Alert](screenshots/confirm_warning_alert.png)
+
 ## Contributions
 
 Contributions are welcome! Feel free to open issues and submit pull requests.
