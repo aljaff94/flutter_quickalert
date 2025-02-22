@@ -1,0 +1,22 @@
+name: flutter_quickalert
+description: "A lightweight and customizable alert dialog package for Flutter. Easily display success, error, warning, and info dialogs with various styles and themes"
+version: 0.3.1
+repository: https://github.com/aljaff94/flutter_quickalert
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+ 
