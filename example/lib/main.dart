@@ -108,14 +108,25 @@ class ExamplePage extends StatelessWidget {
             ),
 
             ElevatedButton(
-              onPressed: () {
-                QuickAlert.show(
-                  context: context,
-                  barrierDismissible: false,
+              onPressed: () async {
+                var result = await context.showConfirmAlert(
+                  message: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum ?',
                   type: QuickAlertTypes.warning,
-                  dialogType: QuickAlertDialogTypes.confirm,
-                  message: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum.',
                 );
+
+                if (result == true && context.mounted) {
+                  context.showAlert(
+                    message: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum.',
+                    type: QuickAlertTypes.success,
+                  );
+                }
+
+                if (result == false && context.mounted) {
+                  context.showAlert(
+                    message: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum.',
+                    type: QuickAlertTypes.error,
+                  );
+                }
               },
               child: Text('Show Confirm Dialog'),
             ),

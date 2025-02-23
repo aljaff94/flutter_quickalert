@@ -1,3 +1,8 @@
+## 1.0.1
+
+* add extension to build context for fast showing alert.
+* fix bugs.
+
 ## 1.0.0
 
 * add new option to set header height in theme.

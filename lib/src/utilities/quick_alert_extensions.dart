@@ -66,13 +66,9 @@ extension QuickAlertExtensions on BuildContext {
   ///
   /// [message] is the message to be displayed in the alert.
   /// [type] is the type of the alert.
-  /// [showCloseButton] determines if the close button should be shown.
-  /// [showCancelButton] determines if the cancel button should be shown.
   Future<bool?> showConfirmAlert({
     required String message,
     required QuickAlertTypes type,
-    final bool showCloseButton = true,
-    final bool showCancelButton = true,
   }) {
     return showGeneralDialog(
       context: this,
@@ -82,8 +78,8 @@ extension QuickAlertExtensions on BuildContext {
             message: message,
             type: type,
             dialogType: QuickAlertDialogTypes.confirm,
-            showCloseButton: showCloseButton,
-            showCancelButton: showCancelButton,
+            showCloseButton: true,
+            showCancelButton: true,
           ),
     );
   }

@@ -72,7 +72,7 @@ class QuickAlertContainer extends StatelessWidget {
         },
 
         if (dialogType == QuickAlertDialogTypes.confirm &&
-            showCancelButton == false) ...{
+            showCancelButton == true) ...{
           OutlinedButton(
             onPressed: () {
               Navigator.of(context).pop(false);
